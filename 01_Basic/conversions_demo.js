@@ -1,3 +1,4 @@
+/*
 //Conversion operations
 
 let score = 33
@@ -30,3 +31,21 @@ console.log(numStr)
 let a = 10
 let b = 10
 console.log(a+b+numStr)
+
+*/
+
+//******operations******/
+
+console.log(1+2) //3
+console.log("1"+"2") //12
+console.log("1"+2) //12
+console.log(1+"2") //12
+
+//whatever dattype appear first will be taken for o/t => here it is string
+console.log("1"+2+3) //123
+
+////whatever dattype appear first will be taken for o/t => here it is number
+console.log(1+2+"3") //33
+
+let val = 10
+console.log(-val)
