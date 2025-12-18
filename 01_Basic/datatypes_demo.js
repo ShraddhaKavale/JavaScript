@@ -20,3 +20,20 @@ console.log(typeof fName) //string
 console.log(typeof nullVal) //object
 console.log(typeof companyName) //undefined
 
+//stack and Heap
+let str1 = "shraddha"
+let str2 = str1
+str1 = "kavale"
+console.log(str1)
+console.log(str2)
+
+let user1 = {
+    uname : "mahadev",
+    age : 57
+}
+
+console.log(user1)
+let user2 = user1
+
+user2.age = 1968
+console.log(user2)
