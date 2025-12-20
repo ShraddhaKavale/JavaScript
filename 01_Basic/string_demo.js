@@ -25,6 +25,8 @@ console.log(str1.split("g")) //splits string in array excluding the given char
 console.log(str1.substring(1,3));
 console.log(str1.toUpperCase());
 
+
+
 let str2 = "   hello    "
 console.log(str2);
 console.log(str2.trim());
